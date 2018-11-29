@@ -5,22 +5,19 @@ import './App.css'
 
 // 页面
 import Home from './pages/home/Home'
-import Sport from './pages/sport/sport'
+import Sport from './pages/sport/Sport'
 
 
 
 export default class App extends Component{
     render(){
         return(
-            <div className="app">
-                <BrowserRouter>
-                    
-                    <Route path="/" component={Home}/>
-                    <Route path="/sport" component={Sport}/>
-
-
-                </BrowserRouter>
-            </div>
+            <BrowserRouter>
+                <div className="app">
+                        <Route exact path="/" component={Home}/>
+                        <Route path="/sport" component={Sport}/>
+                </div>
+            </BrowserRouter>
         )
         
     }
