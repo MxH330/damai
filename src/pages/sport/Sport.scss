@@ -1,100 +1,178 @@
-.sportBox{
+.swiper-sportBox{
     width:100%;
-    height: 100%;
     position: absolute;
     left:0;
-    bottom:0;
     top:0;
-    background: #f4f4f4;
-    .sportSearch{
+    bottom:0;
+    overflow: hidden;
+    .sportBox{
         width:100%;
-        height: 39px;
-        position: relative;
-        left:0;
-        top:0;
-        background: #fff;
-        display: flex;
-        #search-icon{
-            font-size: 13px;
-            position: absolute;
-            left:16%;
-            top:34%;
+        background: #f4f4f4;
+        .sportSearch{
+            width:100%;
+            height: 39px;
+            position: relative;
+            left:0;
+            top:0;
+            background: #fff;
+            display: flex;
+            #search-icon{
+                font-size: 13px;
+                position: absolute;
+                left:16%;
+                top:34%;
+            }
+            .sportInp{
+                background: #F2F3F4;
+                width:70%;
+                height: 25px;
+                margin:auto;
+                border:0;
+                border-radius: 10px;
+                outline: none;
+                padding-left: 20px;
+                box-sizing: border-box;
+                font-size: 12px;
+                color:#666;
+            }   
+            
         }
-        .sportInp{
-            background: #F2F3F4;
-            width:70%;
-            height: 25px;
-            margin:auto;
-            border:0;
-            border-radius: 10px;
-            outline: none;
-            padding-left: 20px;
-            box-sizing: border-box;
-            font-size: 12px;
+        .wrap-active{
+            width:100%;
+            padding:0 10px;
+            font-size: 14px;
             color:#666;
-        }   
-        
-    }
-    .wrap-active{
-        width:100%;
-        padding:0 10px;
-        font-size: 14px;
-        color:#666;
-        .title{
-            width:100%;
-            height: 33px;
-            line-height: 33px;
-        }
-        .top-list{
-            width:100%;
-            height: 63px;
-            .damai-link{
-                width:49%;
-                height: 63px;
-                display: inline-block;
-                &:first-child{
-                    margin-right: 6px;
-                }
-                img{
-                    width:100%;
-                    height: 100%;
-                border-radius: 3px;
-
-                }
+            .title{
+                width:100%;
+                height: 33px;
+                line-height: 33px;
             }
-        }
-    }
-    .wrap-hot{
-        width:100%;
-        padding:0 10px;
-        font-size: 14px;
-        color:#666;
-        background: #fff;
-        .title{
-            width:100%;
-            height: 33px;
-            line-height: 33px;
-        }
-        .hot-list{
-            width:100%;
-            height: 63px;
-            .hot-link{
-                width:32%;
-                height: 63px;
-                display: inline-block;
-                &:first-child{
-                    margin-right: 6px;
-                }
-                &:nth-child(2){
-                    margin-right: 6px;
-                }
-                img{
-                    width:100%;
-                    height: 100%;
+            .top-list{
+                width:100%;
+                height: 0.63rem;
+                .damai-link{
+                    width:49%;
+                    display: inline-block;
+                    &:first-child{
+                        margin-right: 6px;
+                    }
+                    img{
+                        width:100%;
+                        height: 100%;
                     border-radius: 3px;
+    
+                    }
                 }
             }
         }
+        .wrap-hot{
+            width:100%;
+            padding:0 10px;
+            font-size: 14px;
+            color:#666;
+            background: #fff;
+            .title{
+                width:100%;
+                height: 33px;
+                line-height: 33px;
+            }
+            .hot-list{
+                width:100%;
+                height: 0.96rem;
+                .hot-link{
+                    width:32%;  
+                    height: 0.96rem;
+                    display: inline-block;
+                    &:first-child{
+                        margin-right: 6px;
+                    }
+                    &:nth-child(2){
+                        margin-right: 6px;
+                    }
+                    img{
+                        width:100%;
+                        height: 100%;
+                        border-radius: 3px;
+                    }
+                }
+            }
+        }
+        // 篮球
+        .basketball{
+            width:100%;
+            padding:0 10px;
+            font-size: 14px;
+            color:#666;
+            background: #fff;
+            margin-top:0.13rem;
+            min-height: 0.45rem;
+            .title{
+                width:100%;
+                height: 33px;
+                line-height: 33px;
+                display: flex;
+                .moreRight{
+                    flex: 1;
+                    text-align: right;
+                    font-size: 12px;
+                    color:#999;
+                }
+            }
+            .basketball-match{
+                width:100%;
+                overflow: hidden;
+                    .match_item{
+                        width: 0.90rem;
+                        display: inline-block;
+                        position: relative;
+                        margin-right: .10rem;
+                        .match_city{
+                            display: block;
+                            width:0.3rem;
+                            height: 0.18rem;
+                            position: absolute;
+                            left:0.05rem;
+                            bottom:0.63rem;
+                            background-color: rgba(30,26,26,.8);
+                            font-size: 12px;
+                            color:#fff;
+                            border-radius: 0.04rem;
+                        }
+                        img{
+                            width:0.9rem;
+                            height: 1.21rem;
+                        }
+                        .match_detail{
+                            margin-top: 0.04rem;
+                            .match_head{
+                                height: 0.28rem;
+                                line-height: 0.14rem;
+                                overflow:hidden; 
+                                text-overflow:ellipsis;
+                                display: -webkit-box;
+                                -webkit-box-orient: vertical;   // 注意这个会过滤掉
+                                -webkit-line-clamp: 2;
+                                /* autoprefixer: off */
+                                -webkit-box-orient: vertical;
+                                /* autoprefixer: on */
+    
+                                font-size:0.10rem;
+                                color:#222;
+                            }
+                            .match_time{
+                                width: 100%;
+                                display: block;
+                                font-size: .1rem;
+                                color: #999;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                            }
+                        }
+                    }
+                
+            }
+        }
+    
     }
-
 }

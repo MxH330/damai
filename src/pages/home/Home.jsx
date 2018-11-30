@@ -1,14 +1,8 @@
 import React, { Component } from 'react'
 
-import '../../home.scss'
+import './home.scss'
 
 export default class home extends Component{
-    constructor(){
-        super();
-        this.state = {
-            navList:['演唱会', '话剧歌剧', '音乐', '体育', '曲苑杂坛', '亲子', '展览休闲', '境外']
-        }
-    }
     render(){
         let Header = (
                 <div className="home-header">
@@ -25,10 +19,11 @@ export default class home extends Component{
                     </div>
                 </div>
         )
+        
         return(
             <div className="home">
                 {/* 头部 */}
-                <Header/>
+                {Header}
                 {/* banner图 */}
                 <div className="banner"></div>
                 {/* 导航 */}

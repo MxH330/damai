@@ -1,0 +1,9 @@
+.ballsBox{
+    width:100%;
+    overflow: hidden;
+    position: relative;
+    .swap-balls{
+        display: flex;
+        height: 1.85rem;
+    }
+}
