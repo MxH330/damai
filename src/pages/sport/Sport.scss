@@ -1,0 +1,100 @@
+.sportBox{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    left:0;
+    bottom:0;
+    top:0;
+    background: #f4f4f4;
+    .sportSearch{
+        width:100%;
+        height: 39px;
+        position: relative;
+        left:0;
+        top:0;
+        background: #fff;
+        display: flex;
+        #search-icon{
+            font-size: 13px;
+            position: absolute;
+            left:16%;
+            top:34%;
+        }
+        .sportInp{
+            background: #F2F3F4;
+            width:70%;
+            height: 25px;
+            margin:auto;
+            border:0;
+            border-radius: 10px;
+            outline: none;
+            padding-left: 20px;
+            box-sizing: border-box;
+            font-size: 12px;
+            color:#666;
+        }   
+        
+    }
+    .wrap-active{
+        width:100%;
+        padding:0 10px;
+        font-size: 14px;
+        color:#666;
+        .title{
+            width:100%;
+            height: 33px;
+            line-height: 33px;
+        }
+        .top-list{
+            width:100%;
+            height: 63px;
+            .damai-link{
+                width:49%;
+                height: 63px;
+                display: inline-block;
+                &:first-child{
+                    margin-right: 6px;
+                }
+                img{
+                    width:100%;
+                    height: 100%;
+                border-radius: 3px;
+
+                }
+            }
+        }
+    }
+    .wrap-hot{
+        width:100%;
+        padding:0 10px;
+        font-size: 14px;
+        color:#666;
+        background: #fff;
+        .title{
+            width:100%;
+            height: 33px;
+            line-height: 33px;
+        }
+        .hot-list{
+            width:100%;
+            height: 63px;
+            .hot-link{
+                width:32%;
+                height: 63px;
+                display: inline-block;
+                &:first-child{
+                    margin-right: 6px;
+                }
+                &:nth-child(2){
+                    margin-right: 6px;
+                }
+                img{
+                    width:100%;
+                    height: 100%;
+                    border-radius: 3px;
+                }
+            }
+        }
+    }
+
+}
