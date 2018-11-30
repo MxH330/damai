@@ -5,7 +5,7 @@ import './App.scss'
 
 // 页面
 import Home from './pages/home/Home'
-import Sport from './pages/sport/Sport'
+import Sport from './pages/sport/sport'
 
 
 
