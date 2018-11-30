@@ -102,7 +102,7 @@ export default class home extends Component{
                         <h3>近期演出</h3>
                         <span className="more">查看更多<i className="iconfont icon-icon1"></i></span>
                         <div className="dateNav">
-                            
+
                         </div>
                     </div>
                 </div>
