@@ -1,0 +1,122 @@
+.home{
+    width: 100%;
+    height: 100%;
+    .home-header{
+        width: 100%;
+        height: 0.44rem;
+        padding: 0 0.15rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #f5f5f5;
+        .city{
+            color: #333333;
+        }
+        .search-box{
+            width: 70%;
+            height: 60%;
+            border-radius: 0.15rem;
+            display: flex;
+            padding: 0 0.1rem;
+            align-items: center;
+            background-color: #fff;
+            span{
+                flex: 1;
+                height: 100%;
+                font-size: 0.12rem;
+                line-height: 0.24rem;
+                color: #999;
+            }
+        }
+        .personCenter{
+            font-size: 0.13rem;
+        }
+    }
+    i{
+        font-size: 0.13rem;
+        margin-right: 0.03rem; 
+    }
+    .banner{
+        width: 100%;
+        height: 1.05rem;
+        background-color: lightblue;
+    }
+    .nav{
+        width: 100%;
+        height: 1.35rem;
+        padding: 0.05rem 0;
+        display: flex;
+        flex-wrap: wrap;
+        .navItem{
+            width: 25%;
+            height: 50%;
+            font-size: 0.11rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            span{
+                font-size: 0.2rem;
+                margin-bottom: 0.05rem;
+            }
+            .icon-yanchanghuis{
+                color: #ec4619;
+            }
+            .icon-huajugeju{
+                color: #7687f1;
+            }
+            .icon-yinlehui{
+                color: #ff824a;
+            }
+            .icon-tiyu{
+                color: #5f37b5;
+            }
+            .icon-shanzi-{
+                color: #fc6483;
+            }
+            .icon-qinzi{
+                color: #87aff3;
+            }
+            .icon-xiuxianshipin{
+                color: #42a1b9;
+            }
+            .icon-jingwaikehu{
+                color: #6ecafe;
+            }
+        }
+    }
+    .ad{
+        width: 100%;
+        height: 1.2rem;
+        padding:0.1rem 0.05rem;
+        img{
+            width: 100%;
+        }
+    }
+    .starList{
+        width:100%;
+        height: 1.3rem;
+        position: relative;
+        border: 1px solid #999;
+        // background-color: lightcoral;
+        .star_top{
+            height: 0.25rem;
+            padding: 0 0.1rem;
+            .more{
+                position: absolute;
+                right: 0.1rem;
+                top: 0rem;
+                font-size: 0.12rem;
+                line-height: 0.25rem;
+                color: #999;
+                i{
+                    font-size: 0.1rem;
+                }
+            }
+            h3{
+                font-weight: 700; 
+            }
+
+        }
+    }
+}

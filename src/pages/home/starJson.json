@@ -1,0 +1,34 @@
+[
+    {
+        "artFans": 1170138,
+        "artPic": "https://intercms.damai.cn/artist/pic/1535596053705/1535596053705-main.jpg",
+        "artistId": 2031,
+        "artistName": "周杰伦",
+        "citySet": ["上海", "澳门"],
+        "performanceTotal": 3
+    },
+    {
+        "artFans": 480789,
+        "artPic": "https://intercms.damai.cn/artist/pic/1534413417645/1534413417645-main.jpg",
+        "artistId": 609,
+        "artistName": "薛之谦",
+        "citySet": ["上海"],
+        "performanceTotal": 2
+    },
+    {
+        "artFans": 470614,
+        "artPic": "https://intercms.damai.cn/artist/pic/1534413438481/1534413438481-main.jpg",
+        "artistId": 2726,
+        "artistName": "五月天",
+        "citySet": ["上海"],
+        "performanceTotal": 2
+    },
+    {
+        "artFans": 374980,
+        "artPic": "https://intercms.damai.cn/artist/pic/1535596210529/1535596210529-main.jpg",
+        "artistId": 2048,
+        "artistName": "张学友",
+        "citySet": ["江门", "苏州"],
+        "performanceTotal": 3
+    }
+]
